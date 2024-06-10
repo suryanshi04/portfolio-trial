@@ -1,33 +1,31 @@
 nav {
-    
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 999;
-    background-color: transparent;
-    padding: 20px 20px;
-    height:29px; 
+    background-color:transparent; 
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    position: fixed;
+    height:60px; 
     display: flex; 
     justify-content:flex-end ; 
+    align-items: center;
 }
 
 nav button {
-    border-radius: .25rem;
-    text-transform: uppercase;
-    font-style: normal;
-    color: #fff; /* Set the color of the text to white */
-    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
-    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
     height: 40px; /* Updated height */
-    width: 100px; /* Updated width */
-    line-height: 50px; /* Centering text vertically */
+    width: 130px; /* Updated width */
+    line-height: 20px; /* Centering text vertically */
     letter-spacing: 1.2px;
-    transition: .2s .1s;
-    background-image: linear-gradient(90deg, #1c1c1c,  #430556);
-    border: 0 solid;
-    overflow: hidden;
-    margin-top: 20px;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 0px;
+   
 }
 
 nav button a {
@@ -35,29 +33,22 @@ nav button a {
     text-decoration: none; /* Remove underline */
 }
 
-  button {
-    border-radius: 0.25rem;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 400;
-    padding: 0 25px;
-    color: white;
-    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
-    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
-    height: 20px;
-    font-size: 0.7rem;
-    line-height: 14px;
-    letter-spacing: 1.2px;
-    transition: 0.2s 0.1s;
-    background-color: transparent;
-    border: 0 solid;
-    overflow: hidden;
-    margin-left: 20px; /* Space between buttons */
-  }
-  
-  button:hover {
-    cursor: pointer;
-    transition: all 0.3s ease-in;
-    padding: 0 30px;
-  }
-  
+nav button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #5c319f;
+  transition: width 0.3s ease;
+}
+
+nav button:hover::before {
+  width: 100%;
+}
+
+nav button:hover {
+  color: white;
+  background-color: #5c319f;
+}

@@ -114,11 +114,12 @@ const Home = () => {
     </div>
     <div class="cube">
       <span class="side front3">Instagram</span>
-      <span class="side top3">Suryanshi Sharma</span>
+      <span class="side top3">Suryanshi.18</span>
     </div>
   </div>
 </a>
-
+<br/>
+<br/>
 </div>
     );
 };
