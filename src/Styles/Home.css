@@ -234,5 +234,33 @@ p.co{
    transform: rotateX(90deg);
   }
   
+  .top4 {
+   background: #09012c;
+   color: #fff;
+   transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  }
+  
+  .front4 {
+   background: #ffce1b;
+   color: #fff;
+   transform: translate3d(0, 0, 1em);
+  }
+  .button-icon4{
+   margin-top: 10px;
+   display: flex;
+   border: 3px #fff solid;
+   width: fit-content;
+   height: fit-content;
+   cursor: pointer;
+   margin-left: 510px;
+  }
+  .button-icon4:hover {
+   border-color: #959595;
+  }
+  
+  .button-icon4:hover .cube {
+   transform: rotateX(90deg);
+  }
+  
 
  
