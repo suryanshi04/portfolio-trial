@@ -55,7 +55,7 @@ const Home = () => {
             </div>
         </div>
         <div className='home-container'>
-          <div className='content'>
+          <div className='content1'>
             <p className='he'>
               Let me <span className='ani2'>INTRODUCE</span> myself
             </p>
