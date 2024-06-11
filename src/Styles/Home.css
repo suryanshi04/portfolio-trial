@@ -125,7 +125,7 @@ p.co{
  width: fit-content;
  height: fit-content;
  cursor: pointer;
- margin-left: 510px;
+
 }
 
 .icon {
@@ -196,7 +196,7 @@ p.co{
  width: fit-content;
  height: fit-content;
  cursor: pointer;
- margin-left: 510px;
+
 }
 .button-icon2:hover {
  border-color: #959595;
@@ -224,7 +224,7 @@ p.co{
    width: fit-content;
    height: fit-content;
    cursor: pointer;
-   margin-left: 510px;
+
   }
   .button-icon3:hover {
    border-color: #959595;
@@ -252,7 +252,7 @@ p.co{
    width: fit-content;
    height: fit-content;
    cursor: pointer;
-   margin-left: 510px;
+  
   }
   .button-icon4:hover {
    border-color: #959595;

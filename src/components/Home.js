@@ -72,6 +72,7 @@ const Home = () => {
 
          <p className='hee'>FIND ME ON</p>   
          <p className='co'>Feel free to <span className='ani2'>connect</span> with me</p>
+         <center>
          <a href="https://github.com/suryanshi04" target="_blank" rel="noopener noreferrer">
          <div class="button-icon">
          <div class="icon">
@@ -132,6 +133,7 @@ const Home = () => {
           </div>
         </div>
       </a>
+      </center>
 <br/>
 <br/>
 </div>
