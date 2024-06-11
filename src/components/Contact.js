@@ -46,7 +46,7 @@ const Contact = () => {
 
      <tr>
       <td>
-      <a href='https://x.com/notyourmilff'>
+      <a href='https://x.com/notyourmi'>
       <button class="Btnn">
       <span class="svgContainer">
       <svg viewBox="0 0 24 24" fill="white" height="1.6em">
