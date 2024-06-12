@@ -83,7 +83,7 @@ const Home = () => {
         ></path>
          </svg>
         </div>
-        <div class="cube">
+        <div class="cube"> 
          <span class="side front">GitHub</span>
          <span class="side top">suryanshi04</span>
     </div>
